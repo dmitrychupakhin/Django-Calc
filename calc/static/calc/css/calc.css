@@ -42,7 +42,7 @@ body {
             padding: 10px;
             box-shadow: 15px 15px 0px rgba(34, 36, 37, 0.525);
             display: grid;
-            grid-template-columns: repeat(4, 1fr);
+            grid-template-columns: repeat(5, 1fr);
             grid-template-rows: 4fr repeat(5, 3fr);
             height: 100%;
             gap: 10px;
