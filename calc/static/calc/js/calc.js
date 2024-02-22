@@ -10,7 +10,9 @@ calc.addEventListener('click', function (event) {
         case 'C':
             result.innerText = '';
             break;
-
+        case 'AC':
+            result.innerText = result.innerText.slice(0, -1);
+            break;
         case '=':
             result.innerText = parseFloat(eval(result.innerText).toFixed(10));
             break;
